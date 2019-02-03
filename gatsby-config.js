@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatstrap',
-    description: 'Gatsby starter for bootstrap a blog',
-    siteUrl: 'https://gatstrap.netlify.com',
-    author: 'jaxx2104',
-    twitter: 'jaxx2104',
+    title: 'AOAB Academy',
+    description: 'Academia Online de Acuicultura de Barcelona',
+    siteUrl: 'https://aoabacademy.com',
+    author: 'Julià Mestieri',
+    twitter: 'julimestieri',
     adsense: '',
   },
   pathPrefix: '/',
@@ -75,7 +75,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: '',
+        trackingId: 'UA-119761864-2',
       },
     },
     {
@@ -95,5 +95,6 @@ module.exports = {
     'gatsby-plugin-sitemap',
     'gatsby-plugin-twitter',
     'gatsby-transformer-sharp',
+    'react-bootstrap',
   ],
 }
