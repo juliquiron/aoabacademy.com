@@ -1,0 +1,23 @@
+.navbar {
+  background-color: none;
+  text-align: left;
+}
+.navbar img {
+  max-width: 30%;
+  display: inline;
+}
+.navbar-expand .navbar-nav {
+  position: relative;
+  top: -35px;
+}
+.navbar-expand .navbar-nav .nav-link {
+  color:white;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 130%;
+  padding: 6px 24px;
+}
+.navbar-expand .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  color:white;
+}

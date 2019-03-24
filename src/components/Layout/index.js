@@ -1,7 +1,6 @@
 import React from 'react'
 import emergence from 'emergence.js'
 
-import Navi from 'components/Navi'
 import Footer from 'components/Footer'
 import { siteMetadata } from '../../../gatsby-config'
 
@@ -24,7 +23,6 @@ class Layout extends React.Component {
     const { children } = this.props
     return (
       <div>
-        <Navi title={siteMetadata.title} {...this.props} />
         {children}
         <Footer title={siteMetadata.title} author={siteMetadata.author} />
       </div>

@@ -10,6 +10,14 @@ module.exports = {
   pathPrefix: '/',
   plugins: [
     {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Poppins', 'Poppins:blod'],
+        },
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content/posts/`,
