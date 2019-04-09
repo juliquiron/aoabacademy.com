@@ -5,11 +5,10 @@ import './style.scss'
 
 class Navi extends React.Component {
   render() {
-    const { location, title } = this.props
     return (
       <nav className="navbar navbar-expand flex-column flex-md-row">
         <Link className="" to="/">
-          <img src={logo} />
+          <img src={logo} alt="Logo AOAB academy"/>
         </Link>
         <div className="navbar-nav-scroll">
           <ul className="navbar-nav bd-navbar-nav flex-row">

@@ -1,0 +1,12 @@
+.link {
+  background-color: rgba(255,255,255, .28);
+  border: 3px solid white;
+  color: white;
+  padding: 1em 3em;
+  transition: background-color .3s;
+}
+.link:hover {
+  color: white;
+  background-color: rgba(255,255,255, .48);
+}
+

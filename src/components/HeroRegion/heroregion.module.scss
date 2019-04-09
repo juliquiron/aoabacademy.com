@@ -1,0 +1,31 @@
+.wrapper {
+  background-color: transparent;
+  background-image: url('./hero_region_background.jpg');
+  background-size: cover;
+  background-color: rgba(45, 98, 247, .46);
+  text-align: center;
+}
+.title {
+  color: white;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 6rem;
+  margin: 0 8% 38px 8%;
+}
+
+.title:after {
+  content: ' ';
+  width: 15%;
+  height: 2px;
+  background-color: white;
+  display: block;
+  margin: 72px auto;
+}
+
+.subtitle {
+  color: white;
+  margin: 0 8% 68px 8%;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 130%;
+}

@@ -1,0 +1,24 @@
+.iconCard {
+  background-color: none;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 150px;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 150px 1em 0;
+}
+
+
+/** Mapping images */
+.team {
+  background-image: url('./team.svg');
+}
+
+.support {
+  background-image: url('./support.svg');
+}
+
+.virtual {
+  background-image: url('./virtual.svg');
+}

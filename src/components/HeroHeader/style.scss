@@ -1,0 +1,25 @@
+.jumbotron {
+  background-color: transparent;
+}
+.jumbotron h1 {
+  color: white;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 6rem;
+  margin: 0 8% 38px 8%;
+}
+
+.jumbotron h1:after {
+  content: ' ';
+  width: 15%;
+  height: 2px;
+  background-color: white;
+  display: block;
+  margin: 72px auto;
+}
+
+.jumbotron h2 {
+  color: white;
+  margin: 0 8% 68px 8%;
+  font-weight: 600;
+}

@@ -42,25 +42,5 @@ export const pageQuery = graphql`
         adsense
       }
     }
-    post: markdownRemark(frontmatter: { path: { eq: $path } }) {
-      id
-      html
-      frontmatter {
-        layout
-        title
-        path
-        category
-        tags
-        description
-        date(formatString: "YYYY/MM/DD")
-        image {
-          childImageSharp {
-            fixed(width: 500) {
-              ...GatsbyImageSharpFixed_withWebp
-            }
-          }
-        }
-      }
-    }
   }
 `

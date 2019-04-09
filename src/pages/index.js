@@ -1,24 +1,13 @@
 import { graphql } from 'gatsby'
 import React from 'react'
-import {
-  Container,
-  Jumbotron,
-  Button,
-  Card,
-  ButtonToolbar,
-  Row,
-  Col,
-} from 'react-bootstrap'
-import { library } from '@fortawesome/fontawesome-svg-core'
 import get from 'lodash/get'
 
-import Post from 'templates/Post'
-import Layout from 'components/Layout'
-import Header from 'components/Header'
-import HeroRegion from 'components/HeroRegion'
-import TextRegion from 'components/TextRegion'
-import InsightIcons from 'components/InsightIcons'
-import Plans from 'components/Plans'
+import Layout from '../components/Layout'
+import Header from '../components/Header'
+import HeroRegion from '../components/HeroRegion'
+import TextRegion from '../components/TextRegion'
+import InsightIcons from '../components/InsightIcons'
+import Plans from '../components/Plans'
 import './index.scss'
 
 //import 'react-bootstrap'
