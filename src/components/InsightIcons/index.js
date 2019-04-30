@@ -14,19 +14,19 @@ class InsightIcons extends React.Component {
           <Col>
             <IconCard icon="team"
               title="Equipo de expertos"
-              text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh "
+              text="Profesores universitarios, técnicos profesionales e investigadores científicos, avalan nuestros cursos AOAB."
             />
           </Col>
           <Col>
             <IconCard icon="support"
               title="Soporte personalizado"
-              text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh "
+              text="Seguimiento de tu evolución y aprendizaje. A través de exámenes y contacto directo con los profesores."
             />
           </Col>
           <Col>
             <IconCard icon="virtual"
               title="Campus virtual"
-              text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh "
+              text="Comunidad virtual de aprendizaje de AOAB, donde tendrás acceso a material exclusivo."
             />
           </Col>
         </Row>

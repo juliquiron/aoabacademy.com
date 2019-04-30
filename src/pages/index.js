@@ -17,9 +17,10 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location}>
       <Header meta={get('site.meta')} />
       <TextRegion
-        title="Conviertete en un productor experto en acuicultura"
-        summary="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam."
-        description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum<br /> iriure dolor in hendrerit in vulputate velit esse molestie "
+        title="Conviértete en un productor experto en acuicultura"
+        summary="“European Knowledge”"
+        description1="Inscríbete en AOAB Academy y haz realidad tu negocio con nuestros cursos. Podrás acceder a los cursos en línea o como descarga desde cualquier parte del mundo, en cualquier momento del día, y en cualquier dispositivo."
+        description2="Aprenderás a través de atractivas lecciones en video, ilustraciones, cuestionarios y tareas. Consigue tu Certificado de conocimiento AOAB al finalizar cada curso."
       />
       <InsightIcons />
       <HeroRegion

@@ -14,7 +14,8 @@ class TextRegion extends React.Component {
             <p className={style.summary}>{this.props.summary}</p>
           </Col>
           <Col lg={8} md={9}>
-            <p className={style.description}>{this.props.description}</p>
+            <p className={style.description1}>{this.props.description1}</p>
+            <p className={style.description2}>{this.props.description2}</p>
           </Col>
         </Row>
       </Container>
