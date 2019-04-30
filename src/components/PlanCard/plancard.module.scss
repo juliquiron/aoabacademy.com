@@ -14,22 +14,22 @@
 }
 
 .title {
-  font-weight: 900;
+  font-family: 'Futura bold';
   font-size: 190%;
   padding: 1em 0 .5em 0;
 }
 
 .summary {
+  font-family: 'Futura bold';
   font-size: 75%;
-  font-weight: 400;
   line-height: 14px;
   display: inline-block;
   padding: 0 12%;
 }
 
 .price {
+  font-family: 'Futura book';
   font-size: 300%;
-  font-weight: 900;
   padding: .3em 0;
   margin-bottom: 0;
 }
@@ -40,8 +40,8 @@
 }
 
 .description {
+  font-family: 'Futura bold';
   font-size: 75%;
-  font-weight: 400;
   line-height: 14px;
   display: inline-block;
   padding-bottom: 2em;
