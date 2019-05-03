@@ -11,7 +11,7 @@ class HeroHeader extends React.Component {
         <h1>{this.props.title}</h1>
         <h2>{this.props.subtitle}</h2>
         <p>
-          <Button location="{this.props.buttonLink}">{this.props.buttonText}</Button>
+          <Button location={this.props.buttonLink}>{this.props.buttonText}</Button>
         </p>
       </Jumbotron>
     )
