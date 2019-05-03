@@ -11,7 +11,7 @@ class Person extends React.Component {
       <div className={style.wrapper}>
           <p className={style.text}>{this.props.text}</p>
           <p>
-            <ButtonSolid location="https://thegreenfishfarm.com/">{this.props.buttonText}</ButtonSolid>
+            <ButtonSolid location="https://thegreenfishfarm.com/" target="_blank">{this.props.buttonText}</ButtonSolid>
           </p>
       </div>
     )

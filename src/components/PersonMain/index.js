@@ -13,7 +13,7 @@ class PersonMain extends React.Component {
           <h3 className={style.title}>{this.props.title}</h3>
           <p className={style.text}>{this.props.text}</p>
           <p>
-            <Button location="https://www.jordicarrerasdoll.com/">{this.props.buttonText}</Button>
+            <Button location="https://www.jordicarrerasdoll.com/" target="_blank">{this.props.buttonText}</Button>
           </p>
         </div>
       </div>
