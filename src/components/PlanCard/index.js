@@ -11,7 +11,7 @@ class IconCard extends React.Component {
         <strong className={style.summary}>{this.props.summary}</strong>
         <p className={`price ${style.price}`}>{this.props.price}</p>
         <p className={style.description}>{this.props.description}</p>
-        <ButtonSolid location="mailto:">Lo quiero</ButtonSolid>
+        <ButtonSolid location="mailto:contacto@aoabacademy.com">Lo quiero</ButtonSolid>
       </span>
     )
   }
