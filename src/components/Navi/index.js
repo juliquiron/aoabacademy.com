@@ -13,13 +13,23 @@ class Navi extends React.Component {
         <div className="navbar-nav-scroll">
           <ul className="navbar-nav bd-navbar-nav flex-row">
             <li>
-              <Link to="/" className="nav-link">
-                Home
+              <Link to="#academia" className="nav-link">
+                Academia
               </Link>
             </li>
             <li>
-              <Link to="/profile/" className="nav-link">
-                Profile
+              <Link to="#cursos" className="nav-link">
+                Cursos
+              </Link>
+            </li>
+            <li>
+              <Link to="#equipo" className="nav-link">
+                Equipo
+              </Link>
+            </li>
+            <li>
+              <Link to="mailto:contacto@aoabacademy.com" className="nav-link">
+                Contacto
               </Link>
             </li>
           </ul>

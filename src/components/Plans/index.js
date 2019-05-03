@@ -8,7 +8,7 @@ import style from './plans.module.scss'
 class Plans extends React.Component {
   render() {
     return (
-      <div className={style.wrapper}>
+      <div className={style.wrapper} id="cursos">
       <h3 className={style.title}>Escoje la formación ideal para <span className={style.blue}>tu negocio</span></h3>
       <Container fluid="true">
         <Row>

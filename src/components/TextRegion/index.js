@@ -6,7 +6,7 @@ import style from './textregion.module.scss'
 class TextRegion extends React.Component {
   render() {
     return (
-      <div className={style.wrapper}>
+      <div className={style.wrapper} id={this.props.id}>
       <Container fluid='true'>
         <Row>
           <Col lg={4} md={3}>
