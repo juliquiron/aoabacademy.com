@@ -16,7 +16,7 @@ class Header extends React.Component {
         <HeroHeader
           title="Tu academia online de acuicultura"
           subtitle="Todo lo que necesitas saber para convertirte en un experto en acuicultura"
-          buttonLink="#"
+          buttonLink="#cursos"
           buttonText="Información"
         />
       </header>

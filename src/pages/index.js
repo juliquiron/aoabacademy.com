@@ -19,6 +19,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location}>
       <Header meta={get('site.meta')} />
       <TextRegion
+        id="academia"
         title="Conviértete en un productor experto en acuicultura"
         summary="“European Knowledge”"
         description1="Inscríbete en AOAB Academy y haz realidad tu negocio con nuestros cursos. Podrás acceder a los cursos en línea o como descarga desde cualquier parte del mundo, en cualquier momento del día, y en cualquier dispositivo."
@@ -28,11 +29,12 @@ const BlogIndex = ({ data, location }) => {
       <HeroRegion
         title="La mejor formación online de acuicultura"
         subtitle="Inscribete totalmente gratis para conseguir información"
-        buttonLink="#"
+        buttonLink="#cursos"
         buttonText="Inscribete"
       />
       <Plans />
       <PersonMain
+        id='equipo'
         title='Sobre nosotros'
         text="Jordi Carreras Doll, Director de AOAB, es licenciado en biología por la Universidad de Barcelona, docente, acuicultor y vicedecano del Colegio Oficial de Biólogos de Cataluña en Barcelona. Con más de 30 años de experiencia en el sector acuícola ha liderado proyectos en acuicultura por todo el mundo."
         buttonText="Saber más"
