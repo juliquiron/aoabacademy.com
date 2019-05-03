@@ -2,11 +2,13 @@ import { graphql } from 'gatsby'
 import React from 'react'
 import get from 'lodash/get'
 
-import Layout from '../components/Layout'
 import Header from '../components/Header'
 import HeroRegion from '../components/HeroRegion'
-import TextRegion from '../components/TextRegion'
 import InsightIcons from '../components/InsightIcons'
+import Layout from '../components/Layout'
+import TextRegion from '../components/TextRegion'
+import Person from '../components/Person'
+import PersonMain from '../components/PersonMain'
 import Plans from '../components/Plans'
 import './index.scss'
 
@@ -30,6 +32,15 @@ const BlogIndex = ({ data, location }) => {
         buttonText="Inscribete"
       />
       <Plans />
+      <PersonMain
+        title='Sobre nosotros'
+        text="Jordi Carreras Doll, Director de AOAB, es licenciado en biología por la Universidad de Barcelona, docente, acuicultor y vicedecano del Colegio Oficial de Biólogos de Cataluña en Barcelona. Con más de 30 años de experiencia en el sector acuícola ha liderado proyectos en acuicultura por todo el mundo."
+        buttonText="Saber más"
+      />
+      <Person
+        text="Jordi C. Vilariño, Jefe de estudios de AOAB, es licenciado en biología por la Universidad Autónoma de Barcelona, técnico especialista en recirculación y docente. Pionero en sistemas integrados de acuicultura, ha realizado proyectos como The Greenfish Farm."
+        buttonText="Saber más"
+      />
     </Layout>
   )
 }

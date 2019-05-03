@@ -1,0 +1,29 @@
+.wrapper {
+  padding-top: 5em;
+  margin: 0 auto;
+  padding: 6em 4em 4em 4em;
+  text-align: left;
+  width: 60%;
+}
+
+.title {
+  color: white;
+  font-family: 'Futura bold';
+  font-size: 190%;
+}
+
+.text {
+  background-image: url('./picture.jpg');
+  background-position-x: 100%;
+  background-position-y: 10%;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  @media (min-width: 1150px) {
+    background-size: contain;
+  }
+  font-family: 'Futura book';
+  font-size: 0.8rem;
+  line-height: 200%;
+  padding-bottom: 2em;
+  padding-right: 34%;
+}

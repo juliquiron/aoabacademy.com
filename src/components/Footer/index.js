@@ -4,12 +4,10 @@ import './style.scss'
 
 const Footer = ({ author, title }) => (
   <div className="footer">
-    <div className="container">
-      <hr className="border-primary" />
-      <p>
-        {title}
-      </p>
-    </div>
+    <p>Academia Online Acuicultura Barcelona<br />
+    Barcelona, España, EU<br />
+    <a href="http://aoabacademy.com">aoabacademy.com</a><br />
+    <a href="mailto:contacto@aoabacademy.com">contacto@aoabacademy.com</a></p>
   </div>
 )
 

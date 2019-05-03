@@ -1,6 +1,18 @@
 .footer {
-  hr {
-    border-width: 3px;
-    max-width: 50px;
+  background-color: #272933;
+  min-height: 10em;
+  background-image: url('./Logo-02.png');
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+  padding: 1em;
+  p {
+    color: white;
+    line-height: 180%;
+    margin-top: 8px;
+    padding-left: 180px;
+    a {
+      color: white;
+    }
   }
 }
