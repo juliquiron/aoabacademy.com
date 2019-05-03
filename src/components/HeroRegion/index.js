@@ -9,7 +9,7 @@ class HeroRegion extends React.Component {
   render() {
     return (
       <div className={style.wrapper}>
-        <Jumbotron fluid>
+        <Jumbotron fluid style={{backgroundColor: 'rgba(45, 98, 247, .46)'}}>
           <h3 className={style.title}>{this.props.title}</h3>
           <p className={style.subtitle}>{this.props.subtitle}</p>
           <p>
